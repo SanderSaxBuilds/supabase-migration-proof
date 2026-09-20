@@ -1,0 +1,11 @@
+{
+  "name": "supabase-migration-proof",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "transform": "node scripts/transform-export.mjs source/base44-export.sample.json build",
+    "test": "node --test tests/*.test.mjs",
+    "verify": "npm run transform && npm test"
+  }
+}
