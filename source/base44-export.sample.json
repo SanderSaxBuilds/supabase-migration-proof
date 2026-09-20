@@ -1,0 +1,43 @@
+{
+  "exportedAt": "2026-09-20T12:00:00Z",
+  "users": [
+    {
+      "id": "usr_001",
+      "email": "owner@example.test",
+      "displayName": "Project Owner",
+      "createdAt": "2026-04-02T09:30:00Z"
+    },
+    {
+      "id": "usr_002",
+      "email": "member@example.test",
+      "displayName": "Team Member",
+      "createdAt": "2026-05-11T14:20:00Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "prj_001",
+      "ownerId": "usr_001",
+      "name": "Synthetic migration rehearsal",
+      "status": "Active",
+      "createdAt": "2026-06-01T08:00:00Z",
+      "updatedAt": "2026-09-19T16:45:00Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk_001",
+      "projectId": "prj_001",
+      "title": "Reconcile source counts",
+      "status": "In Progress",
+      "dueAt": "2026-09-24T10:00:00Z"
+    },
+    {
+      "id": "tsk_002",
+      "projectId": "prj_001",
+      "title": "Verify rollback rehearsal",
+      "status": "Not Started",
+      "dueAt": null
+    }
+  ]
+}
