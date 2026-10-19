@@ -24,7 +24,7 @@ Never copy password material into source control. Test sign-up, sign-in, reset, 
 4. Run the deterministic transform.
 5. Import users through the approved authentication path.
 6. Import parent tables before child tables.
-7. compare source counts, target counts, identifiers, nulls, and sampled records.
+7. Compare source counts, target counts, identifiers, nulls, and sampled records.
 8. Run application smoke tests and row-level security tests.
 9. Measure the rehearsal duration and document every manual step.
 
