@@ -36,6 +36,7 @@ The transform writes normalized `users.json`, `projects.json`, `tasks.json` and 
 - `tests/transform.test.mjs` checks successful and rejected migrations
 - `docs/migration-runbook.md` covers discovery, rehearsal, cutover, rollback and support
 - `docs/acceptance-checklist.md` lists the evidence needed before a production cutover
+
 ## Boundaries
 
 Base44 project schemas and export routes vary. A real engagement starts with a read-only inventory of the supplied project, its export format, authentication provider, storage, server functions, environment variables and integrations. This proof is an adapter pattern, not a universal Base44 exporter.
@@ -43,3 +44,11 @@ Base44 project schemas and export routes vary. A real engagement starts with a r
 Authentication needs special handling. Password hashes cannot be assumed portable. The production plan chooses a supported transfer method, a staged password reset or an account linking flow after inspecting the source identity system and Supabase requirements.
 
 No client data belongs in this repository. Production secrets stay in the client's environment and never enter source control.
+
+## Contact
+
+More work by Alexandr Khrustalev in the [portfolio](https://sandersaxbuilds.github.io/selected-work/). Contact on Telegram [@sandersax](https://t.me/sandersax).
+
+## License
+
+MIT. See LICENSE.
